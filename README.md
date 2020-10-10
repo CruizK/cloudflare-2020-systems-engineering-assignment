@@ -14,6 +14,9 @@ Be in the root folder and run `go run . --help` for commands
 * Most of the time high volume requests will not work because they are all sent at once, If it was my own application I would have a --timeout flag to specify a main thread sleep time between requests, but I wanted to keep within the specification given
 * I had never used GO prior to starting this assignment on 10/9, so it was really interesting going from pure C-like languages and javascript to GO which is nothing like I've used before.
 
+## General Engineering Assignment Links Response
+![Gen Assignment Links](imgs/links.jpg)
+
 ## Results
 Websites sampled, [Youtube, Google, Cloudflare, Gen Assignment Website, My Portfolio]
 
