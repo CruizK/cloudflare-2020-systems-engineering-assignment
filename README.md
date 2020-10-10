@@ -4,8 +4,8 @@
 Be in the root folder and run `go run . --help` for commands
 
 ## Flags
-`--url <URL> The URL that will be requests and print the body`
-`--profile <REQUEST_COUNT> Profile request at <URL> <REQUEST_COUNT> times`
+* `--url <URL> The URL that will be requests and print the body`
+* `--profile <REQUEST_COUNT> Profile request at <URL> <REQUEST_COUNT> times`
 
 ## Technical Stuff
 * All http connections are made using GO tls sockets for https connections
