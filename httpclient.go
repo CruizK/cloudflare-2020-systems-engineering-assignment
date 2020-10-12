@@ -81,7 +81,7 @@ func parseRedirect(redirect string) (URL, error) {
 	base := redirect
 	path := "/"
 
-	index := strings.LastIndex(redirect, "/")
+	index := strings.Index(redirect, "/")
 
 	if index != -1 {
 		base = redirect[:index]
@@ -103,7 +103,7 @@ func parseURL(url string) (URL, error) {
 	base := url
 	path := "/"
 
-	index := strings.LastIndex(url, "/")
+	index := strings.Index(url, "/")
 
 	if index != -1 {
 		path = url[index:]
